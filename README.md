@@ -4,10 +4,14 @@ Spinify is a simple and customizable terminal spinner library for Node.js.
 
 # Structure
 
-├── index.js
-├── core.js
-├── app.js
+└── app.js
+└── core.js
 └── CustomSpinify.js
+└── index.js
+└── LICENSE
+└── package-lock.json
+└── package.json
+└── README.md
 
 ## Installation
 
@@ -30,7 +34,7 @@ npm install spinify
 const Spinify = new CustomSpinner("dots", "Loading...");
 ```
 
-You can choose from various spinner styles such as 'dots', 'arrow', 'line', etc.
+You can choose from various spinner styles such as 'dots', 'arrows', 'lines', etc.
 
 3. Start the spinner:
 

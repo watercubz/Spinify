@@ -1,7 +1,7 @@
 import { spinify } from "./CustomSpinify.js";
 
 export class CustomSpinner {
-  constructor(style = "dots", text = "Loading...") {
+  constructor(style = "line", text = "Loading...") {
     const selectedStyle = spinify[style] || spinify["dots"];
     this.frames = selectedStyle.frames;
     this.interval = selectedStyle.interval;
