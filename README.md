@@ -90,6 +90,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Enjoy spinning your tasks with Spinify! If you encounter any issues or have suggestions, feel free to [contribute](CONTRIBUTING.md) or [report a bug](https://github.com/watercubz/spinify).
 
-```
-
-```
