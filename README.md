@@ -20,7 +20,7 @@ npm install spinify
 2. Create a new spinner instance, providing the desired style and text:
 
 ```javascript
-const mySpinner = new CustomSpinner("dots", "Loading...");
+const Spinify = new CustomSpinner("dots", "Loading...");
 ```
 
 You can choose from various spinner styles such as 'dots', 'arrow', 'line', etc.
@@ -28,25 +28,25 @@ You can choose from various spinner styles such as 'dots', 'arrow', 'line', etc.
 3. Start the spinner:
 
 ```javascript
-mySpinner.start();
+Spinify.start();
 ```
 
 4. Simulate a time-consuming task. For example, use setTimeout:
 
 ```javascript
 setTimeout(() => {
-  mySpinner.stop();
+  Spinify.stop();
 }, 5000);
 ```
 
 Adjust the duration as needed.
 
-## Spinner Styles
+## Spinify Styles
 
 Spinify supports various spinner styles. You can customize the spinner style by providing the desired style when creating the CustomSpinner instance.
 
 ```javascript
-const mySpinner = new CustomSpinner("arrow", "Processing...");
+const Spinify = new CustomSpinner("arrow", "Processing...");
 ```
 
 Available spinner styles include 'dots', 'arrow', 'line', 'arc', and more.
@@ -58,12 +58,12 @@ Here's a simple example of using Spinify to display a spinner while simulating a
 ```javascript
 const { CustomSpinner } = require("spinify");
 
-const mySpinner = new CustomSpinner("dots", "Loading...");
-mySpinner.start();
+const Snipify = new CustomSpinner("dots", "Loading...");
+Snipify.start();
 
 // Simulate a time-consuming task
 setTimeout(() => {
-  mySpinner.stop();
+  Snipify.stop();
 }, 5000);
 ```
 
