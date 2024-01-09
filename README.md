@@ -17,12 +17,11 @@ npm install spinify
    const { CustomSpinner } = require("spinify");
    ```
 
-````
 2. Create a new spinner instance, providing the desired style and text:
 
- ```javascript
- const mySpinner = new CustomSpinner('dots', 'Loading...');
-````
+```javascript
+const mySpinner = new CustomSpinner("dots", "Loading...");
+```
 
 You can choose from various spinner styles such as 'dots', 'arrow', 'line', etc.
 
