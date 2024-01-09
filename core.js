@@ -1,6 +1,5 @@
 import { spinify } from "./CustomSpinify.js";
 
-// Cambiado el nombre de la clase y la exportación
 export class CustomSpinner {
   constructor(style = "dots", text = "Loading...") {
     const selectedStyle = spinify[style] || spinify["dots"];
