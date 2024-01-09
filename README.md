@@ -4,7 +4,7 @@ Spinify is a simple and customizable terminal spinner library for Node.js.
 
 # Structure
 
-````
+```
 └── app.js
 └── core.js
 └── CustomSpinify.js
@@ -28,6 +28,8 @@ npm install spinify
 
    ```javascript
    const { CustomSpinner } = require("spinify");
+   ```
+
 ````
 
 2. Create a new spinner instance, providing the desired style and text:
@@ -89,3 +91,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Enjoy spinning your tasks with Spinify! If you encounter any issues or have suggestions, feel free to [contribute](CONTRIBUTING.md) or [report a bug](https://github.com/watercubz/spinify).
+````
