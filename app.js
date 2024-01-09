@@ -1,8 +1,8 @@
 //app.js
-import { CustomSpinner } from "./core.js";
+import { Spinifys } from "./core.js";
 
 // elige el stylo de tu Snipify que deseas (puedes cambiar 'dots' por otro estilo)
-const Spinify = new CustomSpinner("dots", "loading...");
+const Spinify = new Spinifys("dots", "loading...");
 Spinify.start();
 
 // simula una tarea que lleva tiempo

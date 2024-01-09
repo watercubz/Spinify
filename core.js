@@ -1,6 +1,6 @@
 import { spinify } from "./CustomSpinify.js";
 
-export class CustomSpinner {
+export class Spinifys {
   constructor(style = "dots", text = "Loading...") {
     const selectedStyle = spinify[style] || spinify["dots"];
     this.frames = selectedStyle.frames;
