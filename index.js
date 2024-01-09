@@ -1,2 +1,2 @@
 // index.js
-export { CustomSpinner } from "./core";
+export { CustomSpinner } from "./core.js";
