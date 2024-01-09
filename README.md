@@ -2,6 +2,13 @@
 
 Spinify is a simple and customizable terminal spinner library for Node.js.
 
+# Structure
+
+├── index.js
+├── core.js
+├── app.js
+└── CustomSpinify.js
+
 ## Installation
 
 You can install Spinify using npm:
