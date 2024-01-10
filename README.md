@@ -62,7 +62,7 @@ Spinify supports various spinner styles. You can customize the spinner style by 
 const Spinify = new CustomSpinner("arrow", "Processing...");
 ```
 
-Available spinner styles include 'dots', 'arrow', 'line', 'arc', and more.
+Available spinner styles include 'dots', 'arrow', 'line', 'step', and more.
 
 ## Example
 
@@ -109,6 +109,10 @@ export const spinify = {
   custom: {
     frames: ["⊙", "⋆", "✸", "❉", "✦", "✿", "❀"],
     interval: 100,
+  },
+  asterisk: {
+    frames: ["***", "**", "***", "**", "***", "**"],
+    interval: 120,
   },
 };
 ```

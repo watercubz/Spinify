@@ -23,4 +23,8 @@ export const spinify = {
     frames: ["⊙", "⋆", "✸", "❉", "✦", "✿", "❀"],
     interval: 100,
   },
+  asterisk: {
+    frames: ["***", "**", "***", "**", "***", "**"],
+    interval: 120,
+  },
 };
