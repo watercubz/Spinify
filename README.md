@@ -82,6 +82,39 @@ setTimeout(() => {
 
 Feel free to explore different spinner styles and integrate Spinify into your projects for a delightful terminal experience.
 
+## Spinify Themes
+
+```js
+export const spinify = {
+  spinify: {
+    frames: ["-/", "/-", "/", "---", "---", "-/"],
+    interval: 80,
+  },
+  spet: {
+    frames: ["<", ">", "<", ">", "*", "<", ">"],
+    interval: 100,
+  },
+  dots: {
+    frames: ["⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏"],
+    interval: 80,
+  },
+  lines: {
+    frames: ["-", "\\", "|", "/"],
+    interval: 100,
+  },
+  arrows: {
+    frames: ["←", "↖", "↑", "↗", "→", "↘", "↓", "↙"],
+    interval: 120,
+  },
+  custom: {
+    frames: ["⊙", "⋆", "✸", "❉", "✦", "✿", "❀"],
+    interval: 100,
+  },
+};
+```
+
+- Select your spinify theme favorite
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -89,4 +122,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Enjoy spinning your tasks with Spinify! If you encounter any issues or have suggestions, feel free to [contribute](CONTRIBUTING.md) or [report a bug](https://github.com/watercubz/spinify).
-
