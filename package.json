@@ -1,6 +1,6 @@
 {
   "name": "spinify",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "Spinify is a simple and customizable terminal spinner library for Node.js.",
   "main": "index.js",
   "type": "module",
