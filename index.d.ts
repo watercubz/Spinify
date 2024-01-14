@@ -6,29 +6,33 @@ export declare class CustomSpinner {
    */
     constructor(style?: string, text?: string);
  
-     /**
-   * @example
-   * ```typescript
-   * import { CustomSpinner } from 'spinify';
-   * const spetSpinner = new CustomSpinner("spet", "Loading...");
-   * spetSpinner.start();
-   * setTimeout(() => {
-   *   spetSpinner.stop();
-   * }, 5000);
-   * ```
-   */
-    start(): void;
     /**
-   * @example
    * ```typescript
    * import { CustomSpinner } from 'spinify';
-   * const spetSpinner = new CustomSpinner("spet", "Loading...");
+   * 
+   * const spetSpinner = new CustomSpinner("spinify", "Loading...");
+   * 
    * spetSpinner.start();
+   * 
    * setTimeout(() => {
    *   spetSpinner.stop();
    * }, 5000);
    * ```
-   */
-    stop(): void;
+     * @param start - initialize the application to start using the core with CustomSpinner
+    */
+     start(): void;
+
+     /**
+      * ```typescript
+      * spetSpinner.start();
+      * 
+      *  setTimeout(() => {
+      *   spetSpinner.stop();
+      * }, 5000);
+      * ```
+      * @param start - ends the application from the time set in setTimeout
+     */
+
+   stop(): void;
 
 }
