@@ -1,3 +1,5 @@
+[![Publish package npm](https://github.com/watercubz/Spinify/actions/workflows/npm-publish.yml/badge.svg?branch=master)](https://github.com/watercubz/Spinify/actions/workflows/npm-publish.yml)
+
 # Spinify
 
 Spinify is a simple and customizable terminal spinner library for Node.js.
