@@ -4,7 +4,7 @@ import { CustomSpinner } from '../src/core'
 test('CustomSpinner starts and stops correctly', async () => {
 	jest.useFakeTimers()
 
-	const spinify = new CustomSpinner(spinify.dots, 'Loading...')
+	const spinify = new CustomSpinner('dots', 'Loading...')
 	spinify.start()
 
 	// Avanzar el tiempo para simular que ha pasado algún tiempo
