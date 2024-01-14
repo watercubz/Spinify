@@ -5,14 +5,24 @@ Spinify is a simple and customizable terminal spinner library for Node.js.
 # Structure
 
 ```
-└── app.js
-└── core.js
-└── CustomSpinify.js
-└── index.js
-└── LICENSE
-└── package-lock.json
-└── package.json
-└── README.md
+└── 📁spinify
+    └── 📁.github
+        └── 📁workflows
+            └── npm-publish.yml
+    └── .gitignore
+    └── app.js
+    └── biome.json
+    └── index.d.ts
+    └── index.js
+    └── LICENSE.txt
+    └── package-lock.json
+    └── package.json
+    └── README.md
+    └── 📁src
+        └── core.js
+        └── CustomSpinify.js
+    └── 📁test
+        └── core.spec.js
 ```
 
 ## Installation
@@ -28,12 +38,14 @@ npm install spinify
 
    ```javascript
    const { CustomSpinner } = require("spinify");
+    // or
+   import { CustomSpinner } from "spinify" 
    ```
 
 2. Create a new spinner instance, providing the desired style and text:
 
 ```javascript
-const Spinify = new CustomSpinner("dots", "Loading...");
+const Spinify = new CustomSpinner(spinify.lines, "Loading...");
 ```
 
 You can choose from various spinner styles such as 'dots', 'arrows', 'lines', etc.
@@ -59,7 +71,7 @@ Adjust the duration as needed.
 Spinify supports various spinner styles. You can customize the spinner style by providing the desired style when creating the CustomSpinner instance.
 
 ```javascript
-const Spinify = new CustomSpinner("arrow", "Processing...");
+const Spinify = new CustomSpinner("arrows", "Processing...");
 ```
 
 Available spinner styles include 'dots', 'arrow', 'line', 'step', and more.
@@ -70,8 +82,10 @@ Here's a simple example of using Spinify to display a spinner while simulating a
 
 ```javascript
 const { CustomSpinner } = require("spinify");
+// or
+import { CustomSpinner } from 'spinify' 
 
-const Snipify = new CustomSpinner("dots", "Loading...");
+const Snipify = new CustomSpinner("lines", "Loading...");
 Snipify.start();
 
 // Simulate a time-consuming task

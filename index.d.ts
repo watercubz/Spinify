@@ -1,16 +1,16 @@
 export declare class CustomSpinner {
-     /**
+	/**
    * Constructor for CustomSpinner class.
    * @param style - The style of the spinner.
    * @param text - The text to display with the spinner.
    */
-    constructor(style?: string, text?: string);
+	constructor(style?: Array, text?: string);
  
-    /**
+	/**
    * ```typescript
    * import { CustomSpinner } from 'spinify';
    * 
-   * const spetSpinner = new CustomSpinner("spinify", "Loading...");
+   * const spetSpinner = new CustomSpinner(spinify.dots, "Loading...");
    * 
    * spetSpinner.start();
    * 
@@ -20,9 +20,9 @@ export declare class CustomSpinner {
    * ```
      * @param start - initialize the application to start using the core with CustomSpinner
     */
-     start(): void;
+	start(): void;
 
-     /**
+	/**
       * ```typescript
       * spetSpinner.start();
       * 
@@ -33,6 +33,6 @@ export declare class CustomSpinner {
       * @param start - ends the application from the time set in setTimeout
      */
 
-   stop(): void;
+	stop(): void;
 
 }
