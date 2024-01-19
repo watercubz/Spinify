@@ -30,16 +30,3 @@ jobs:
     - name: Test
       run: npm test
   
-  publish-npm:
-    runs-on: ubuntu-20.04
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
-        with:
-         node-version: 18
-      - name: npm publish
-        if: ${{ github.event == 'push' }}
-        run: npm publish
-        env:
-         NODE_AUTH_TOKE: ${{secrets.NPM_AUTH_TOKEN}}
-     
