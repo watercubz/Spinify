@@ -2,8 +2,10 @@
 import { CustomSpinner } from './src/core.js' // Import the core functionality of the application.
 
 // Create a new instance of CustomSpinner by choosing the Spinify theme and providing a loading text.
-const Spinify = new CustomSpinner('spinify', 'loading...')
+const Spinify = new CustomSpinner('lines', 'loading...')
 Spinify.start() // Start the instance.
+
+
 
 // Simulate a time-consuming task.
 setTimeout(() => {
