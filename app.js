@@ -6,7 +6,6 @@ const Spinify = new CustomSpinner('lines', 'loading...')
 Spinify.start() // Start the instance.
 
 
-
 // Simulate a time-consuming task.
 setTimeout(() => {
 	Spinify.stop() // Stop the application after 3 seconds.
