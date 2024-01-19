@@ -40,7 +40,6 @@ jobs:
       - name: npm publish
         if: ${{ github.event == 'push' }}
         run: npm publish
-      - run: npm test
         env:
-         NODE_AUTH_TOKE: ${{secrets.NPM_AUTH_TOKEN}}
+         NODE_AUTH_TOKE: ${{secrets.GITHUB_TOKEN}}
      
